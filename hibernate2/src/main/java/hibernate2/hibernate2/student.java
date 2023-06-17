@@ -33,8 +33,9 @@ public class student {
 		Set<Long> phones;
 		@ElementCollection
 		@OrderColumn(name="col4")
-		Map<String, Long>refs;
+		Map<String, Long>refs;  
 		public int getSid() {
+			System.out.println("Hello");
 			return sid;
 		}
 		public void setSid(int sid) {
