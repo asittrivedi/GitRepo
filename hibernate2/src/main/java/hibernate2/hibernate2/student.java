@@ -35,7 +35,7 @@ public class student {
 		@OrderColumn(name="col4")
 		Map<String, Long>refs;  
 		public int getSid() {
-			System.out.println("Hello");
+			System.out.println("Hello wold");
 			return sid;
 		}
 		public void setSid(int sid) {
